@@ -8,4 +8,4 @@ def test_one():
     assert sum_of_squares([1,2,3]) == 14
 
 def test_two():
-    print(sum_of_squares([0,-2,6]))
+    assert sum_of_squares([0,-2,6]) == 40
